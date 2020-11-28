@@ -1,0 +1,214 @@
+.nav-head img{
+  width: 60px;
+  /* margin-top: -20px; */
+}
+
+.nav-head{
+  position: fixed;
+  float: left;
+  background-color: #fff;
+  margin-top: -13px;
+  margin-left: 2%;
+  width: 96%;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 20px 0px;
+  z-index: 10;
+}
+
+.nav-head ul li a{
+  padding-bottom: 0px;
+  margin-top: 5px;
+  color: #10498a !important;
+  font-weight: 700;
+  float: right;
+  text-align: right;
+}
+.nav-head ul li a:hover{
+  color: #00ab66 !important;
+}
+.banner img{
+  width: 100%;
+  float: left;
+
+}
+.wave1 img{
+  position:relative;
+  width: 100%;
+
+}
+.wave1-body{
+  position: relative;
+}
+.wave1{
+  position:absolute;
+  left: 0px;
+  top:350px;
+  z-index: 1;
+}
+
+.banner .wave1-body .classroom{
+  position:absolute;
+  width: 100%;
+  padding:150px 0px;;
+  left:0px;
+  top:600px;
+  min-height: 300px;
+  height: auto;
+  background : linear-gradient(75deg, #66b47b , #10498a 60%);
+  background : -moz-linear-gradient(75deg, #66b47b ,#10498a 60%);
+  background : -webkit-linear-gradient(75deg, #66b47b ,#10498a 60%);
+}
+.banner .circle{
+  position: relative;
+  width: 500px;
+  left: 40%;
+  top: 40px;
+}
+
+.banner .circle .circle1 {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+
+}
+.banner .circle .circle2 {
+  position: absolute;
+  left: 200px;
+  top:100px;
+
+}
+.banner .circle .circle3 {
+  position: absolute;
+  left: 390px;
+  top:120px;
+
+}
+.banner .circle .circle1 img,.circle2 img,.circle3 img{
+  width: 150px;
+  z-index: 10;
+
+}
+
+.banner .wave1-body .classroom img{
+  z-index: 9;
+}
+.banner .wave1-body .classroom .classroom-image{
+  z-index: 1;
+}
+.wave2-body{
+  position:relative;
+  width: 100%;
+  top:1000px;;
+}
+.wave2{
+  position:absolute;
+  left: 0px;
+  top:550px;
+  z-index: 1;
+}
+
+@media (max-width: 1300px) {
+  .wave1{
+    position:absolute;
+    left: 0px;
+    top:340px;
+  }
+  .banner .wave1-body .classroom{
+    position:absolute;
+    top:580px;
+  }
+  .banner .circle{
+    position: relative;
+    width: 500px;
+    left: 40%;
+    top: 30px;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  .wave1{
+    position:absolute;
+    left: 0px;
+    top:280px;
+  }
+  .banner .wave1-body .classroom{
+    position:absolute;
+    top:500px;
+  }
+  .banner .circle{
+    position: relative;
+    width: 500px;
+    left: 40%;
+    top: 0px;
+  }
+
+}
+@media (max-width: 992px) {
+  .wave1{
+    position:absolute;
+    left: 0px;
+    top:220px;
+  }
+  .banner .wave1-body .classroom{
+    position:absolute;
+    top:410px;
+  }
+  .banner .circle{
+    position: relative;
+    width: 500px;
+    left: 28%;
+    top: -40px;
+  }
+
+}
+@media (max-width: 768px) {
+  .wave1{
+    position:absolute;
+    left: 0px;
+    top:170px;
+  }
+  .banner .wave1-body .classroom{
+    position:absolute;
+    top:320px;
+  }
+  .banner .circle{
+    position: relative;
+    width: 500px;
+    left: 5%;
+    top: -70px;
+  }
+  .banner .circle .circle1 img,.circle2 img,.circle3 img{
+    width: 120px;
+    z-index: 10;
+
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .wave1{
+    position:absolute;
+    left: 0px;
+    top:140px;
+  }
+  .banner .wave1-body .classroom{
+    position:absolute;
+    top:250px;
+  }
+  .banner .circle{
+    position: relative;
+    width: 500px;
+    left: 0%;
+    top: -70px;
+    margin: -20px;
+  }
+  .banner .circle .circle1 img,.circle2 img,.circle3 img{
+    width: 110px;
+    z-index: 10;
+
+  }
+
+}
