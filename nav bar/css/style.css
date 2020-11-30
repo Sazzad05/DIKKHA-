@@ -1,0 +1,35 @@
+body{
+    background-color: #007399;
+}
+.navbar-logo img {
+    width: 100%;
+    max-height: 36px;
+    max-width: 90px;
+}
+.navbar-brand{
+  height: 80px;
+  background: white;
+padding: 20px 15px 20px 15px ;
+box-shadow: 0px 0px 15px 0px #00ab69;
+border-radius: 0px 0px 10px 10px;
+
+}
+.navbar-logo{
+  margin-left: 25px;
+
+  /* padding: 20px; */
+}
+.dikkha_nav{
+  background: white;
+  height: 65px;
+  margin-bottom: 20px;
+  /* border: 1px solid transparent; */
+  margin: 0 auto;
+  box-shadow: 0px 0px 15px 0px #00ab69;
+  text-transform: uppercase;
+}
+.nav-content{
+  padding-top: 8px;
+  font-weight: 700;
+  font-size: 15px;
+}
